@@ -5,7 +5,7 @@ const Parents1 = () => {
     const [isLoggedIn,setisLoggedIn]=useState(false);
     return (
      <div>
-  { isLoggedIn ? <p>You are Logged in!</p> : <Child setisLogged={setisLoggedIn}/>}
+  { isLoggedIn ? <h1>You are Logged in!</h1> : <Child setisLogged={setisLoggedIn}/>}
 
      </div>
     )
