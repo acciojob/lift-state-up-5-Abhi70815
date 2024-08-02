@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 import Child from './Child.js';
-import '../styles/Parent.css';
+// import '../styles/Parent.css';
 
 const Parents1 = () => {
     const [isLoggedIn,setisLoggedIn]=useState(false);

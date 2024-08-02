@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Child.css'
+// import '../styles/Child.css'
 
 const Child = ({setisLogged}) => {
     const change = (e)=>{
