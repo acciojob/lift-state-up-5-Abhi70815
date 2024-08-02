@@ -7,10 +7,14 @@ const Child = ({setIsLoggedIn}) => {
     }
     return (
         <form onSubmit={handleLogin}>
-            <label htmlFor="username">Username</label>
-            <input type='text' id="username"/>
-            <label htmlFor="password">Password</label>
+           <p>
+           <label htmlFor="username">Username:</label>
+           <input type='text' id="username"/>
+           </p>
+            <p>
+            <label htmlFor="password">Password:</label>
             <input type='password' id="password"/>
+            </p>
             <button type='submit'>logIn</button>
         </form>
     )
